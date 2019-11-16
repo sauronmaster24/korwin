@@ -1,0 +1,274 @@
+{% load static %}
+
+  .czcionka{font-family:impact; font-size: 20pt; color:#000000;}
+  .inna{font-family:times; font-size: 20pt; color:#000000;}
+  .fajna{font-family:impact; font-size: 60px; color:white;
+      text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+      text-align: center;
+    }
+
+#tytul {text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  margin: auto;
+  font-size:50px;
+  padding:-100px;
+  letter-spacing:3px;
+
+}
+
+  body, html{cursor:url("../cur/cursor1.cur"), auto;
+  height: 100%;
+  width: 100%;
+
+  SCROLLBAR-FACE-COLOR:#698197;
+  SCROLLBAR-HIGHLIGHT-COLOR:#698197;
+  SCROLLBAR-SHADOW-COLOR:#F0F4F7;
+  SCROLLBAR-3DLIGHT-COLOR:#F0F4F7;
+  SCROLLBAR-ARROW-COLOR:#F0F4F7;
+  SCROLLBAR-TRACK-COLOR:#C3CCD5;
+  SCROLLBAR-DARKSHADOW-COLOR:#698197;}
+
+  .bg{
+  background-image:url("../img/burza.gif");
+  background-color: #242424;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+
+  A:link {cursor:url("../cur/cursor2.cur"), pointer;}
+  A:visited {cursor:url("../cur/cursor2.cur"), pointer;}
+  A:active {cursor:url("../cur/cursor2.cur"), pointer;}
+  A:hover {cursor:url("../cur/cursor2.cur"), pointer;}
+
+
+
+  #kontener
+  {
+  	width: 1000px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  #naglowek
+  {
+    text-align: center;
+  	color: white;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+    background-color:#902424;
+    border-right: 5px outset #902424;
+    border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+  }
+
+  #witaj
+  {
+
+  	float: left;
+  	height: 200px;
+    padding: 6px;
+  	background-color: 	#d7c179;
+    background-image: url("../img/witaj.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  	text-align: center;
+  	font-size: 18px;
+    border-right: 2px outset #902424;
+    border-left: 5px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom: 5px outset #902424;
+    width:479px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #autorzy
+  {
+
+  	float: left;
+    padding: 6px;
+  	height: 200px;
+  	background-color: 		#d7c179;
+    background-image: url("../img/autorzy.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  	text-align: center;
+  	font-size: 18px;
+  	border-right: 5px outset #902424;
+  	border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+    width:479px;
+    text-align: center;
+        margin-bottom: 20px;
+  }
+
+  #autorzy:hover
+  {
+
+    float: left;
+    padding: 6px;
+    height: 200px;
+    background-color: 		#d7c179;
+    background-image: url("../img/xd.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+    border-right: 5px outset #902424;
+    border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+    width:479px;
+    text-align: center;
+        margin-bottom: 20px;
+  }
+
+  #generator
+  {
+    clear:both;
+  	background-color: #902424;
+    background-image: url("../img/generator.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 72px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    letter-spacing: 16px;
+  	color: white;
+  	padding-top: 10px;
+  	padding-bottom: 20px;
+  	height: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-right: 5px outset #902424;
+    border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+  }
+
+
+  #miejsce
+  { padding-top: 1px;
+  	padding-bottom: :5px;
+    background-image:url("../img/reka.jpg");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+  	height:350px;
+  	text-align: center;
+    margin-bottom: 20px;
+    border-right: 5px outset #902424;
+    border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+  }
+
+  #stopka
+  {
+  	clear: both;
+  	color: white;
+  	text-align: center;
+  	padding: 20px;
+  	font-size: 18px;
+    text-align: center;
+    background-color:#902424;
+    border-right: 5px outset #902424;
+    border-left: 2px outset #902424;
+    border-top: 5px outset #902424;
+    border-bottom:5px outset #902424;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+  }
+
+h1 {margin-top:100px;
+  color:white;
+  font-size:35px;
+  font-family: Times;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#autorzy:hover
+{
+
+  float: left;
+  padding: 6px;
+  height: 200px;
+  background-color: 		#d7c179;
+  background-image: url("../img/xd.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 18px;
+  border-right: 5px outset #902424;
+  border-left: 2px outset #902424;
+  border-top: 5px outset #902424;
+  border-bottom:5px outset #902424;
+  width:479px;
+  text-align: center;
+      margin-bottom: 20px;
+}
+
+#witaj:hover
+{
+
+  float: left;
+  height: 200px;
+  padding: 6px;
+  background-color: 	#d7c179;
+  background-image: url("../img/slodzi.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 18px;
+  border-right: 2px outset #902424;
+  border-left: 5px outset #902424;
+  border-top: 5px outset #902424;
+  border-bottom: 5px outset #902424;
+  width:479px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#generator:hover
+{
+  clear:both;
+  background-color: #902424;
+  background-image: url("../img/masakracja.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 72px;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  letter-spacing: 16px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-right: 5px outset #902424;
+  border-left: 2px outset #902424;
+  border-top: 5px outset #902424;
+  border-bottom:5px outset #902424;
