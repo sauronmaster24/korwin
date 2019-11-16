@@ -1,5 +1,3 @@
- Use CSS to your project
-
 # "Generator Korwinizmów"
 by Piotr Jaworski & Waldemar Wojna
 
