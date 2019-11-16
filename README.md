@@ -31,10 +31,10 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### Troubleshooting
 
+
+#A jeśli Ci wyskoczy błąd:
 ```
-A jeśli Ci wyskoczy błąd:
 Git fatal: protocol 'https' is not supported
 ```
 
