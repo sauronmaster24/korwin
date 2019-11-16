@@ -1,6 +1,6 @@
-# Use CSS to your project
+ Use CSS to your project
 
-"Generator Korwinizmów"
+# "Generator Korwinizmów"
 by Piotr Jaworski & Waldemar Wojna
 
 ## Jak  to odpalić?
