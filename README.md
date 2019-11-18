@@ -11,7 +11,7 @@ cd sciezka_do_twojego_folderu
 
 ```bash
 Następnie wpisz:
-git clone https://github.com/mikbuch/korwin.git
+git clone https://github.com/sauronmaster24/korwin.git
 ```
 
 ```bash
