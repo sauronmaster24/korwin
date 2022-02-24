@@ -5,6 +5,10 @@ import random
 import django_heroku
 django_heroku.settings(locals())
 
+
+
+
+
 """
 Django settings for uploads project.
 
@@ -54,6 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'uploads.urls'
